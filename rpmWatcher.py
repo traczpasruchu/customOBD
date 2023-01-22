@@ -17,4 +17,5 @@ connection.start()  # Start the update loop
 time.sleep(15)      # Let the udpate loop run for 1 minute
 connection.stop()   # Stop the update loop
 
+connection.close()
 os.system("\"C:\\Program Files (x86)\\Bluetooth Command Line Tools\\bin\\btcom.exe\" -b8C:DE:00:02:4E:EA -r")

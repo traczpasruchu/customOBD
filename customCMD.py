@@ -5,7 +5,7 @@ from obd import OBDCommand, Unit
 from obd.protocols import ECU
 from obd.utils import bytes_to_hex
 
-connection = obd.OBD("COM7")    # Open asynchronous OBD-II connection
+connection = obd.OBD("COM3")    # Open asynchronous OBD-II connection
 
 
 # This function will run as a callback every time a new value is found
